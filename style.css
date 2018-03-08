@@ -2,8 +2,6 @@ body
 {
 	margin: 0;		
 	background-color: rgb(3, 27, 50);
-	opacity: 1;
-	transition: 0.7s opacity;
 }
 
 body.fade {
@@ -60,7 +58,6 @@ body.fade {
 	width: 2.55em;
 	line-height: 2.55em;
 	background-color: white;
-	color: white;
 	color: black;
 	transition: 0.2s ease;
 }
