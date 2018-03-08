@@ -1,7 +1,14 @@
-body
+body 
 {
-	margin: 0;
+	margin: 0;		
 	background-color: rgb(3, 27, 50);
+	opacity: 1;
+	transition: 0.7s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
 }
 
 .content
@@ -15,10 +22,7 @@ body
 .name
 {
 	font-family: 'Montserrat', serif;
-	/* text-transform: uppercase; */
 	letter-spacing: 0.05em;
-	/* color: #222; */
-	/* color: rgb(204, 204, 204); */
 	color: white
 }
 
@@ -39,8 +43,6 @@ body
 	line-height: 2.2em;
 	display: inline-block;
 	border-radius: 20%;
-	/* border-color: black; */
-	/* border-style: solid; */
 	border-width: 0.04em;
 	transition: 0.4s ease;
 }
@@ -57,7 +59,6 @@ body
 	width: 2.55em;
 	line-height: 2.55em;
 	background-color: black;
-	/* color: #fff; */
 	color: white;
 	transition: 0.2s ease;
 }
