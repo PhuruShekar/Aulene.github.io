@@ -65,9 +65,9 @@ h1, h2 {
 {
 	margin: 0 2.2em;
 	display: inline-block;
-	height: 4.3em;
-	width: 4.3em;
-	line-height: 4.3em;
+	height: 3.3em;
+	width: 3.3em;
+	line-height: 3.3em;
 	color: white;
 }
 
@@ -77,13 +77,13 @@ h1, h2 {
 	vertical-align: middle;
 	font-size: 2em;
 	color: white;
-	height: 4em;
-	width: 4em;
-	line-height: 4em;
+	height: 3em;
+	width: 3em;
+	line-height: 3em;
 	display: inline-block;
 	border-radius: 20%;
-	border-width: 0.04em;
-	transition: 0.4s ease;
+	border-width: 0.03em;
+	transition: 0.3s ease;
 }
 
 .box a
@@ -94,9 +94,9 @@ h1, h2 {
 
 .dix:hover
 {
-	height: 4em;
-	width: 4em;
-	line-height: 4em;
+	height: 3em;
+	width: 3em;
+	line-height: 3em;
 	background-color: white;
 	color: black;
 	transition: 0.2s ease;
